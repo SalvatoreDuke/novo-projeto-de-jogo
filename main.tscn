@@ -1,45 +1,112 @@
-[gd_scene load_steps=4 format=3 uid="uid://btd7smf34m3b"]
+[gd_scene load_steps=57 format=3 uid="uid://btd7smf34m3b"]
 
 [ext_resource type="Script" path="res://deckmanager.gd" id="1_0qhn7"]
 [ext_resource type="Texture2D" uid="uid://dhjbinbsb6132" path="res://Inscryption Inspired - Deck of Playing Cards/Sem título.jpg" id="1_38p1w"]
 [ext_resource type="Script" path="res://main.gd" id="1_rn4nt"]
+[ext_resource type="Texture2D" uid="uid://c26fw1pbv3tu2" path="res://Inscryption Inspired - Deck of Playing Cards/card_back.png" id="3_7fm5s"]
+[ext_resource type="Texture2D" uid="uid://dg4jgowr0ov1a" path="res://Inscryption Inspired - Deck of Playing Cards/2_of_clubs.png" id="3_nldhh"]
+[ext_resource type="Texture2D" uid="uid://dco1gyxi6ynim" path="res://Inscryption Inspired - Deck of Playing Cards/2_of_diamonds.png" id="4_ysr43"]
+[ext_resource type="Texture2D" uid="uid://b2fnn32fjdkx7" path="res://Inscryption Inspired - Deck of Playing Cards/2_of_hearts.png" id="5_0hvfc"]
+[ext_resource type="Texture2D" uid="uid://cosgm44gnvyyr" path="res://Inscryption Inspired - Deck of Playing Cards/2_of_spades.png" id="6_n7rmv"]
+[ext_resource type="Texture2D" uid="uid://bjomgqx0vt7hd" path="res://Inscryption Inspired - Deck of Playing Cards/3_of_clubs.png" id="7_s3hcw"]
+[ext_resource type="Texture2D" uid="uid://bufashgbqw4gh" path="res://Inscryption Inspired - Deck of Playing Cards/3_of_diamonds.png" id="8_aqbs6"]
+[ext_resource type="Texture2D" uid="uid://31oatpa4jxql" path="res://Inscryption Inspired - Deck of Playing Cards/3_of_hearts.png" id="9_d5v6t"]
+[ext_resource type="Texture2D" uid="uid://c2bjp0lhn8p06" path="res://Inscryption Inspired - Deck of Playing Cards/3_of_spades.png" id="10_tpkxf"]
+[ext_resource type="Texture2D" uid="uid://b46oenwslklrf" path="res://Inscryption Inspired - Deck of Playing Cards/4_of_clubs.png" id="11_1redk"]
+[ext_resource type="Texture2D" uid="uid://drdelxij3s20e" path="res://Inscryption Inspired - Deck of Playing Cards/4_of_diamonds.png" id="12_f51g5"]
+[ext_resource type="Texture2D" uid="uid://sp4dxa3du42y" path="res://Inscryption Inspired - Deck of Playing Cards/4_of_hearts.png" id="13_f0u5p"]
+[ext_resource type="Texture2D" uid="uid://dw68mdxtpknru" path="res://Inscryption Inspired - Deck of Playing Cards/4_of_spades.png" id="14_j5h5q"]
+[ext_resource type="Texture2D" uid="uid://c08d375swyjam" path="res://Inscryption Inspired - Deck of Playing Cards/5_of_clubs.png" id="15_t77sg"]
+[ext_resource type="Texture2D" uid="uid://doti5k27bgc1o" path="res://Inscryption Inspired - Deck of Playing Cards/5_of_diamonds.png" id="16_fgxdh"]
+[ext_resource type="Texture2D" uid="uid://rnajiw6tactw" path="res://Inscryption Inspired - Deck of Playing Cards/5_of_hearts.png" id="17_c44bw"]
+[ext_resource type="Texture2D" uid="uid://bujd277by2iqn" path="res://Inscryption Inspired - Deck of Playing Cards/5_of_spades.png" id="18_j471v"]
+[ext_resource type="Texture2D" uid="uid://josn6rkqqfh7" path="res://Inscryption Inspired - Deck of Playing Cards/6_of_clubs.png" id="19_gaxvj"]
+[ext_resource type="Texture2D" uid="uid://c0p57g3v8pnfk" path="res://Inscryption Inspired - Deck of Playing Cards/6_of_diamonds.png" id="20_yxjwn"]
+[ext_resource type="Texture2D" uid="uid://cwtg6tfv8ms2r" path="res://Inscryption Inspired - Deck of Playing Cards/6_of_hearts.png" id="21_fy0fb"]
+[ext_resource type="Texture2D" uid="uid://bn5g4exn4fdro" path="res://Inscryption Inspired - Deck of Playing Cards/6_of_spades.png" id="22_3locl"]
+[ext_resource type="Texture2D" uid="uid://cjn64fdtoohlt" path="res://Inscryption Inspired - Deck of Playing Cards/7_of_clubs.png" id="23_01674"]
+[ext_resource type="Texture2D" uid="uid://dt22v4wqb80yp" path="res://Inscryption Inspired - Deck of Playing Cards/7_of_diamonds.png" id="24_42wk8"]
+[ext_resource type="Texture2D" uid="uid://yl1quae46o6" path="res://Inscryption Inspired - Deck of Playing Cards/7_of_hearts.png" id="25_npila"]
+[ext_resource type="Texture2D" uid="uid://cfd8ey7rp3e7g" path="res://Inscryption Inspired - Deck of Playing Cards/7_of_spades.png" id="26_8l8o0"]
+[ext_resource type="Texture2D" uid="uid://dxblnmu3pl1sd" path="res://Inscryption Inspired - Deck of Playing Cards/8_of_clubs.png" id="27_7m0e0"]
+[ext_resource type="Texture2D" uid="uid://f2kq31yiiq73" path="res://Inscryption Inspired - Deck of Playing Cards/8_of_diamonds.png" id="28_igm44"]
+[ext_resource type="Texture2D" uid="uid://c4s0f44pycng6" path="res://Inscryption Inspired - Deck of Playing Cards/8_of_hearts.png" id="29_055ea"]
+[ext_resource type="Texture2D" uid="uid://5d3fnmwra4f6" path="res://Inscryption Inspired - Deck of Playing Cards/8_of_spades.png" id="30_rv47h"]
+[ext_resource type="Texture2D" uid="uid://u2it3sxx1yhp" path="res://Inscryption Inspired - Deck of Playing Cards/9_of_clubs.png" id="31_toemm"]
+[ext_resource type="Texture2D" uid="uid://cbyja3lmhl1qp" path="res://Inscryption Inspired - Deck of Playing Cards/9_of_diamonds.png" id="32_efnex"]
+[ext_resource type="Texture2D" uid="uid://cpuk200mharu" path="res://Inscryption Inspired - Deck of Playing Cards/9_of_hearts.png" id="33_ju1il"]
+[ext_resource type="Texture2D" uid="uid://bylbyv56acs2g" path="res://Inscryption Inspired - Deck of Playing Cards/9_of_spades.png" id="34_gsmal"]
+[ext_resource type="Texture2D" uid="uid://cm01duwv6n17b" path="res://Inscryption Inspired - Deck of Playing Cards/10_of_clubs.png" id="35_sq4ov"]
+[ext_resource type="Texture2D" uid="uid://eo0fpd53g0uq" path="res://Inscryption Inspired - Deck of Playing Cards/10_of_diamonds.png" id="36_8sh4y"]
+[ext_resource type="Texture2D" uid="uid://db8ox4g03ht3m" path="res://Inscryption Inspired - Deck of Playing Cards/10_of_hearts.png" id="37_5wgj1"]
+[ext_resource type="Texture2D" uid="uid://bcrdb2c6p2opw" path="res://Inscryption Inspired - Deck of Playing Cards/10_of_spades.png" id="38_bcnbh"]
+[ext_resource type="Texture2D" uid="uid://beumr7atvquhc" path="res://Inscryption Inspired - Deck of Playing Cards/jack_of_clubs.png" id="39_6gj05"]
+[ext_resource type="Texture2D" uid="uid://bc5ui71oydgtj" path="res://Inscryption Inspired - Deck of Playing Cards/jack_of_diamonds.png" id="40_hx64j"]
+[ext_resource type="Texture2D" uid="uid://fj24m2afvw5w" path="res://Inscryption Inspired - Deck of Playing Cards/jack_of_hearts.png" id="41_b237q"]
+[ext_resource type="Texture2D" uid="uid://dn8hx34p11rse" path="res://Inscryption Inspired - Deck of Playing Cards/jack_of_spades.png" id="42_laydi"]
+[ext_resource type="Texture2D" uid="uid://cj4kxshi8badn" path="res://Inscryption Inspired - Deck of Playing Cards/queen_of_clubs.png" id="43_4gvtu"]
+[ext_resource type="Texture2D" uid="uid://bg5yh6orxrib4" path="res://Inscryption Inspired - Deck of Playing Cards/queen_of_diamonds.png" id="44_up43y"]
+[ext_resource type="Texture2D" uid="uid://cobio6l8vjo4c" path="res://Inscryption Inspired - Deck of Playing Cards/queen_of_hearts.png" id="45_3pis8"]
+[ext_resource type="Texture2D" uid="uid://bftomwwc5niw5" path="res://Inscryption Inspired - Deck of Playing Cards/queen_of_spades.png" id="46_oyhmp"]
+[ext_resource type="Texture2D" uid="uid://dlox3oqcvyi8y" path="res://Inscryption Inspired - Deck of Playing Cards/king_of_spades.png" id="47_mybx1"]
+[ext_resource type="Texture2D" uid="uid://cgmpvhxwc6n18" path="res://Inscryption Inspired - Deck of Playing Cards/king_of_hearts.png" id="48_02y7h"]
+[ext_resource type="Texture2D" uid="uid://cfm7fv5merrwi" path="res://Inscryption Inspired - Deck of Playing Cards/king_of_diamonds.png" id="49_nptbh"]
+[ext_resource type="Texture2D" uid="uid://cov7wk54v8krd" path="res://Inscryption Inspired - Deck of Playing Cards/king_of_clubs.png" id="50_4i8gu"]
+[ext_resource type="Texture2D" uid="uid://g60x1utib6r8" path="res://Inscryption Inspired - Deck of Playing Cards/ace_of_clubs.png" id="51_ribh2"]
+[ext_resource type="Texture2D" uid="uid://bqborydgqb27g" path="res://Inscryption Inspired - Deck of Playing Cards/ace_of_diamonds.png" id="52_55mj3"]
+[ext_resource type="Texture2D" uid="uid://rxx7ymh6ov6r" path="res://Inscryption Inspired - Deck of Playing Cards/ace_of_hearts.png" id="53_eoorg"]
+[ext_resource type="Texture2D" uid="uid://bguaifi35ljn6" path="res://Inscryption Inspired - Deck of Playing Cards/ace_of_spades.png" id="54_3kmg4"]
 
-[node name="Node2D" type="Node2D"]
+[node name="main" type="Node2D"]
 script = ExtResource("1_rn4nt")
 
-[node name="GameManager" type="Node2D" parent="."]
-
 [node name="DeckManager" type="Node2D" parent="."]
+top_level = true
 script = ExtResource("1_0qhn7")
+card_textures = Array[Texture2D]([ExtResource("3_nldhh"), ExtResource("4_ysr43"), ExtResource("5_0hvfc"), ExtResource("6_n7rmv"), ExtResource("7_s3hcw"), ExtResource("8_aqbs6"), ExtResource("9_d5v6t"), ExtResource("10_tpkxf"), ExtResource("11_1redk"), ExtResource("12_f51g5"), ExtResource("13_f0u5p"), ExtResource("14_j5h5q"), ExtResource("15_t77sg"), ExtResource("16_fgxdh"), ExtResource("17_c44bw"), ExtResource("18_j471v"), ExtResource("19_gaxvj"), ExtResource("20_yxjwn"), ExtResource("21_fy0fb"), ExtResource("22_3locl"), ExtResource("23_01674"), ExtResource("24_42wk8"), ExtResource("25_npila"), ExtResource("26_8l8o0"), ExtResource("27_7m0e0"), ExtResource("28_igm44"), ExtResource("29_055ea"), ExtResource("30_rv47h"), ExtResource("31_toemm"), ExtResource("32_efnex"), ExtResource("33_ju1il"), ExtResource("34_gsmal"), ExtResource("35_sq4ov"), ExtResource("36_8sh4y"), ExtResource("37_5wgj1"), ExtResource("38_bcnbh"), ExtResource("39_6gj05"), ExtResource("40_hx64j"), ExtResource("41_b237q"), ExtResource("42_laydi"), ExtResource("43_4gvtu"), ExtResource("44_up43y"), ExtResource("45_3pis8"), ExtResource("46_oyhmp"), ExtResource("47_mybx1"), ExtResource("48_02y7h"), ExtResource("49_nptbh"), ExtResource("50_4i8gu"), ExtResource("51_ribh2"), ExtResource("52_55mj3"), ExtResource("53_eoorg"), ExtResource("54_3kmg4")])
+card_values = Array[int]([2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 12, 12, 13, 13, 13, 13, 1, 1, 1, 1])
 
-[node name="main" type="Control" parent="."]
+[node name="cena" type="Control" parent="."]
+show_behind_parent = true
+light_mask = 2
+visibility_layer = 2
 layout_mode = 3
 anchors_preset = 0
 offset_right = 42.0
 offset_bottom = 40.0
 metadata/_edit_use_anchors_ = true
 
-[node name="background" type="TextureRect" parent="main"]
+[node name="background" type="TextureRect" parent="cena"]
+show_behind_parent = true
+light_mask = 2
+visibility_layer = 2
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 27.4048
-anchor_bottom = 16.25
+anchor_left = -0.047619
+anchor_top = 0.025
+anchor_right = 27.4524
+anchor_bottom = 16.3
 texture = ExtResource("1_38p1w")
-expand_mode = 1
+expand_mode = 3
 metadata/_edit_use_anchors_ = true
 
-[node name="drawbutton" type="Button" parent="."]
-offset_left = 911.0
-offset_top = 205.0
-offset_right = 1204.0
-offset_bottom = 638.0
+[node name="DrawButton" type="Button" parent="."]
+modulate = Color(0.986596, 0.417556, 0.62085, 1)
+top_level = true
+offset_left = 889.0
+offset_top = 208.0
+offset_right = 1312.0
+offset_bottom = 833.0
 scale = Vector2(0.3, 0.3)
+text = " "
+icon = ExtResource("3_7fm5s")
+flat = true
 
 [node name="CardContainer" type="GridContainer" parent="."]
-offset_left = 220.0
-offset_top = 181.0
+offset_left = 612.0
+offset_top = 346.0
 offset_right = 885.0
 offset_bottom = 545.0
-columns = 3
-
-[connection signal="pressed" from="drawbutton" to="." method="_on_drawbutton_pressed"]
+theme_override_constants/h_separation = 299
+theme_override_constants/v_separation = 288
+columns = 4
