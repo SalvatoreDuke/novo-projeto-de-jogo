@@ -6,6 +6,7 @@ extends Node2D
 
 func _ready():
 	draw_button.connect("pressed", Callable(self, "_on_draw_button_pressed"))
+	
 
 func _on_draw_button_pressed():
 	var card_data = deck_manager.draw_card()
